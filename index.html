@@ -27,6 +27,7 @@
         <div class="button">
             <button class="start" onclick="start()">Start</button>
             <button class="pause" onclick="pause()">Pause</button>
+            <button id="refresh">Reset</button>
         </div>
     </div>
 
@@ -37,6 +38,7 @@
     let number = 0
     let cron
     let h3 = document.querySelector('h3')
+    let button = document.querySelector("#refresh")
 
     function start() {
 
@@ -51,6 +53,13 @@
 
         clearInterval(cron)
     }
+
+    button.addEventListener("click", () => {
+
+        location.reload()
+    })
+
+
 
 
 </script>
