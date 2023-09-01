@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto-Contador-Aranha</title>
+</head>
+
+<body>
+
+    <img class="logo-title" src="./assets/lodo-title.png" alt="logo-title">
+
+    <div class="div">
+        <img src="./assets/logo-aranha.png" alt="logo-spider">
+    </div>
+
+    <div class="caixa-matriz">
+        <div class="text">
+            <h2> Cont<span>ador</span> </h2>
+            <h3>0</h3>
+        </div>
+        <div class="button">
+            <button class="start" onclick="start()">Start</button>
+            <button class="pause" onclick="pause()">Pause</button>
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+    let number = 0
+    let cron
+    let h3 = document.querySelector('h3')
+
+    function start() {
+
+        cron = setInterval(function () {
+            number++
+            h3.innerHTML = number
+
+        }, 1000)
+    }
+
+    function pause() {
+
+        clearInterval(cron)
+    }
+
+
+</script>
+
+</html>

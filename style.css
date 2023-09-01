@@ -1,0 +1,154 @@
+* {
+
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: #000000;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(./assets/spiderman.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.div {
+
+    position: absolute;
+}
+
+.logo-title {
+
+    height: 100px;
+    margin-top: 150px;
+    margin-left: -365px;
+    position: absolute;
+}
+
+.div img {
+
+    height: 410px;
+    margin-top: 234px;
+    margin-left: 270px;
+}
+
+.caixa-matriz {
+
+    display: inline-block;
+    width: 293px;
+    height: 293px;
+    margin-top: 21.3%;
+    margin-left: -357px;
+    background: #00000089;
+    border-radius: 185px;
+    border: none;
+    position: absolute;
+
+}
+
+.caixa-matriz .text {
+
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: 50px -8px 15px -1px;
+
+}
+
+.caixa-matriz .text h2 {
+
+    font-size: 45px;
+    color: #ffffff;
+    margin-right: 10px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.caixa-matriz .text h2 span {
+
+    color: #d40000;
+}
+
+.caixa-matriz .text h3 {
+
+    display: inline-block;
+    font-size: 58px;
+    margin-top: 8px;
+    margin-right: 7px;
+    font-family: 'Nova Square', cursive;
+}
+
+.button {
+
+    margin: 5px;
+
+}
+
+.button .start {
+
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    background: #00ff0071;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+.button .pause {
+
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    background: #ff0000a0;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 20px;
+    padding-left: 3px;
+    font-family: 'Caveat', cursive;
+}
+
+.start:hover {
+
+    background: transparent;
+    border: 1px solid;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.start:active {
+
+    background: #009900;
+}
+
+.pause:hover {
+
+    background: transparent;
+    border: 1px solid;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.pause:active {
+
+    background: #c40000;
+}
