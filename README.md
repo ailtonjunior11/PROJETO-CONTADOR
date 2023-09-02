@@ -10,4 +10,4 @@ A cada dia, estou Melhorando e me Aprofundando em cada tecnologia, não só na t
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <br>
 <br>
-<img src="https://raw.githubusercontent.com/ailtonjunior11/Projeto-Contador/9d787788e9c3cbc9d7a482c8970e4ec4fc5f5cc0/assets/contador-aranha.jpg">
+<img src="https://raw.githubusercontent.com/ailtonjunior11/Projeto-Contador-Spider/19753ddae474879604333be05ded27f8a3402a0f/assets/spider-page.jpg">
