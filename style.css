@@ -142,6 +142,7 @@ body {
     font-family: 'Caveat', cursive;
     
 }
+
 .start:hover {
 
     background: transparent;
@@ -166,4 +167,17 @@ body {
 .pause:active {
 
     background: #c40000;
+}
+
+#refresh:hover {
+
+    background: transparent;
+    border: 1px solid;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+#refresh:active {
+
+    background: #ffd500b7;
 }
