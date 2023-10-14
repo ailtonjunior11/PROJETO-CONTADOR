@@ -3,7 +3,7 @@
     margin: 0;
     margin: 0;
     box-sizing: border-box;
-
+    font-family: 'Righteous', cursive;
 }
 
 body {
@@ -19,7 +19,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-
 }
 
 .div {
@@ -94,7 +93,6 @@ body {
 .button {
 
     margin: 5px;
-
 }
 
 .button .start {
@@ -127,7 +125,7 @@ body {
     font-family: 'Caveat', cursive;
 }
 
-#refresh{
+#refresh {
 
     height: 50px;
     width: 50px;
@@ -140,7 +138,7 @@ body {
     margin-right: 20px;
     padding-left: 3px;
     font-family: 'Caveat', cursive;
-    
+
 }
 
 .start:hover {
@@ -180,4 +178,159 @@ body {
 #refresh:active {
 
     background: #ffd500b7;
+}
+
+@media screen and (max-width: 900px) {
+
+    body {
+
+        background: #000000;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(./assets/logo-spiderman-mobile.jpeg);
+        background-size: 100%;
+    }
+
+    .logo-title {
+
+        height: 115px;
+        margin: 28px -50%;
+        background-color: #00000060;
+        width: 100%;
+    }
+
+    .div img {
+
+        height: 350px;
+        margin: 250px 25px;
+    }
+
+    .caixa-matriz .text {
+
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin: 50px -8px 0px -1px;
+    }
+
+    .caixa-matriz {
+
+        display: inline-block;
+        width: 253px;
+        height: 253px;
+        margin-top: 76.3%;
+        margin-left: -122.8px;
+        background: #00000089;
+        border-radius: 185px;
+        border: none;
+    }
+
+    .caixa-matriz .text h2 {
+
+        font-size: 40px;
+        color: #ffffff; 
+        margin-top: -25px;  
+    }
+
+    .caixa-matriz .text h2 span {
+
+        color: #d40000;
+    }
+
+    .caixa-matriz .text h3 {
+
+        font-size: 55px;
+        margin-top: 5px;
+        font-family: 'Nova Square', cursive;
+    }
+    
+    .button .start {
+
+        height: 45px;
+        width: 45px;
+        font-size: 13px;
+        border-radius: 40px;
+        border: none;
+        background: #00ff00b2;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 0px 80px 0 20px;
+        font-family: 'Caveat', cursive;
+    }
+    
+    .button .pause {
+    
+        height: 45px;
+        width: 45px;
+        font-size: 13px;
+        border-radius: 40px;
+        border: none;
+        background: #ff0000a2;
+        color: #ffffff;
+        cursor: pointer;
+        margin-right: 20px;
+        padding-left: 3px;
+        font-family: 'Caveat', cursive;
+    }
+    
+    #refresh {
+    
+        height: 45px;
+        width: 45px;
+        font-size: 13px;
+        border-radius: 40px;
+        border: none;
+        background: #ffd500ab;
+        color: #ffffff;
+        cursor: pointer;
+        margin: -15% 3px 0 0;
+        padding-left: 5px;
+        font-family: 'Caveat', cursive;
+    }
+
+    .start:hover {
+
+        background: transparent;
+        border: 1px solid #00ff00b2;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    
+    .start:active {
+    
+        background: #009900;
+    }
+    
+    .pause:hover {
+    
+        background: transparent;
+        border: 1px solid #ff0000a2;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    
+    .pause:active {
+    
+        background: #c40000;
+    }
+    
+    #refresh:hover {
+    
+        background: transparent;
+        border: 1px solid #ffd500ab;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    
+    #refresh:active {
+    
+        background: #ffd500b7;
+    }
 }
