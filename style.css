@@ -18,7 +18,7 @@ body {
     background-image: url(./assets/spiderman.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 110%;
 }
 
 .div {
@@ -30,7 +30,7 @@ body {
 
     height: 100px;
     margin-top: 150px;
-    margin-left: -365px;
+    margin-left: -300px;
     position: absolute;
 }
 
@@ -46,13 +46,12 @@ body {
     display: inline-block;
     width: 293px;
     height: 293px;
-    margin-top: 21.3%;
-    margin-left: -357px;
+    margin-top: 23.7%;
+    margin-left: -295px;
     background: #00000089;
     border-radius: 185px;
     border: none;
     position: absolute;
-
 }
 
 .caixa-matriz .text {
