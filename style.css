@@ -181,17 +181,26 @@ body {
 
 @media screen and (max-width: 900px) {
 
+    * {
+
+        margin: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Righteous', cursive;
+    }
+
     body {
 
         background: #000000;
-        height: 100vh;
+        height: 110vh;
         width: 100vw;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         background-image: url(./assets/logo-spiderman-mobile.jpeg);
-        background-size: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .logo-title {
